@@ -1,25 +1,26 @@
+<!-- https://bitm-results.github.io/Conteneo/ -->
 <!DOCTYPE html>
-<html
+<!-- <html
   xmlns="http://www.w3.org/1999/xhtml"
   xml:lang="en-gb"
   lang="en-gb"
   dir="ltr"
->
+> -->
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="generator" content="GAT Bangalore" />
     <title>Welcome to BITM Online Results</title>
     <!-- <base href="http://bitmeresults.contineo.in/" /> -->
-    <link
+    <!-- <link
       rel="shortcut icon"
       href="http://bitmeresults.contineo.in/templates/exam1.0/favicon.ico"
       type="image/vnd.microsoft.icon"
-    />
-    <link
+    /> -->
+    <!-- <link
       rel="stylesheet"
       href="http://bitmeresults.contineo.in/templates/exam1.0/css/template.css.php?v=1.0.0"
       type="text/css"
-    />
+    /> -->
     <style type="text/css">
       .osolCaptchaBlock {
         width: 100%;
@@ -34,13 +35,32 @@
         min-height: 20px;
         padding-left: 22px;
       }
+      .maindiv{
+        width: 819px;
+        margin: auto;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      tr {
+        display: table-row;
+        vertical-align: inherit;
+      }
+      .names {
+        font-size: 12pt;
+        color: #ffffff;
+        padding-bottom: 2px;
+        font-weight: bold;
+        text-align: left;
+      }
     </style>
   </head>
   <body>
     <div id="overall">
       <div id="wrapIt">
         <div id="header">
-          <div id="main">
+          <div class="maindiv">
             <div class="inmain">
               <div id="system-message-container"></div>
 
@@ -79,23 +99,31 @@
                   position: relative;
                   top: 1px;
                 }
+
+                .bgheader {
+                  background: #143d98;
+                  padding: 40px;
+                  width: 700px;
+                }
+                input{
+                  width: 250px;
+                  margin: 7px 0px;
+                }
               </style>
 
-              <link
+              <!-- <link
                 rel="stylesheet"
                 type="text/css"
                 href="http://bitmeresults.contineo.in/components/com_examresult/assets/css/result.css"
-              />
+              /> -->
               <table
-                width="940px"
                 cellpadding="0px"
                 cellspacing="0px"
-                border="0px"
               >
                 <div style="display: flex">
                   <div>
                     <img
-                      src="http://bitmeresults.contineo.in/components/com_examresult/assets/images/header.png"
+                      src="./Images/header.png"
                       width="240px"
                       height="131px"
                     />
@@ -154,7 +182,6 @@
                 <tr>
                   <td height="20px">&nbsp;</td>
                 </tr>
-
                 <tr>
                   <td style="padding-left: 60px">
                     <div class="bgheader">
@@ -180,7 +207,7 @@
                           </tr>
 
                           <tr>
-                            <td width="350px" class="names">Enter DOB</td>
+                            <td width="180px" class="names">Enter DOB</td>
                             <td width="20px" class="colons">:</td>
                             <td width="180px">
                               <input
